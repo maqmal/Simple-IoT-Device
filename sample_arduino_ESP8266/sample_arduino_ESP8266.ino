@@ -8,8 +8,8 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid = "AndroidAPF9C3"; //change with your ssid name
-const char* password = "aqmal2000"; //change with your ssid password
+const char* ssid = ""; //change with your ssid name
+const char* password = ""; //change with your ssid password
 const char* mqtt_server = "broker.hivemq.com";
 const char* mqtt_topic = "greenhouse/dev/suhu/001";
 const char* mqtt_username = "";
